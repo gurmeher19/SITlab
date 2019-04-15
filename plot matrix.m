@@ -1,0 +1,12 @@
+clc;
+clear all;
+close all;
+t=0:P0.01:2*pi;
+plot(t,sin(t),'r','Linewidth',3);
+hold on;
+plot(t,cos(t),'k','Linewidth',3);
+grid on;
+xlabel(' \mu Time','Fontweight','bold');
+ylabel('Amp','Fontweight','bold');
+title('plot example');
+legend('sine','cos');
